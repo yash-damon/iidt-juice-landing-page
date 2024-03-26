@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 18px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 200px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.vegetarian-symbol {
+  margin-left: 5px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.save-for-later {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.remove {
+  color: orange;
+}
+
+.subtotal {
+  margin-top: 20px;
+}
+
+.checkout-button {
+  background-color: paleblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
